@@ -1,0 +1,57 @@
+#playlist {
+    background-color: yellow;
+    width: 28vw;
+    height: 100%;
+    float: left;
+    margin-right: 1vw;
+    overflow: auto;
+}
+
+.listhead {
+    background-color: blue;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+}
+
+ul li {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+ul li .leftbox {
+    background-color: pink;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.leftbox .artist {
+    height: 50%;
+    background-color: green;
+    text-align: center;
+    line-height: 50px;
+}
+
+.leftbox .track {
+    height: 50%;
+    background-color: orangered;
+    text-align: center;
+    line-height: 50px;
+}
+
+ul li .rightbox {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: chartreuse;
+    line-height: 100px;
+}
+
+.rightbox button {
+    width: 50%;
+    height: 40px;
+}
